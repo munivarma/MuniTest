@@ -14,12 +14,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <profiles>
+  <profile>
     <id>DEV</id>
             <activation>
                 <property>
                     <echo>DEV environment</echo>
                 </property>
 				</activation>
+	</profile>
   </profiles>
 
   <dependencies>
