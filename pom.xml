@@ -14,18 +14,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <profiles>
-    <profile>
-      <id>DEV</id>
-      
-        <echo>i am in dev</echo>
-      
-    </profile>
-	<profile>
-      <id>STG</id>
-      
-        <echo>i am in stg</echo>
-      
-    </profile>
+    <id>DEV</id>
+            <activation>
+                <property>
+                    <echo>DEV environment</echo>
+                </property>
+				</activation>
   </profiles>
 
   <dependencies>
