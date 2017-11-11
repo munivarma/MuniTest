@@ -13,6 +13,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <profiles>
+    <profile>
+      <id>DEV</id>
+      <properties>
+        <echo>i am in dev</echo>
+      </properties>
+    </profile>
+	<profile>
+      <id>STG</id>
+      <properties>
+        <echo>i am in stg</echo>
+      </properties>
+    </profile>
+  </profiles>
 
   <dependencies>
     <dependency>
